@@ -3,7 +3,7 @@ module.exports = (app) => {
     app.use(
         "/api",
         createProxyMiddleware({
-            target: "http://localhost:8080",
+            target: "http://35.155.225.146",
             chageOrigin: true,
         })
     );
